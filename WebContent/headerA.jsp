@@ -11,6 +11,7 @@
 </head>
 <body>
 	<!-- 내비게이션 바 -->
+	<!-- 로그인 전 화 -->
 	<nav class="navbar navbar-default">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed"
@@ -39,17 +40,6 @@
 					</ul>
 				</li>
 			</ul>
-			<!--  로그인 후 화면 -->
-			<ul class="nav navbar-nav navbar-right">
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle"
-						data-toggle="dropdown" role="button" aria-haspopup="true"
-						aria-expanded="false">회원관리<span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a href="logoutAction.jsp">로그아웃</a></li>
-					</ul>
-				</li>
-			</ul>	
 		</div>
 	</nav>
 

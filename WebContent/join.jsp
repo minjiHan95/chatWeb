@@ -1,3 +1,4 @@
+<% request.setCharacterEncoding("UTF-8"); %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -59,10 +60,10 @@
 					<div class="form-group" style="text-align: center;">
 						<div class="btn-group" data-toggle="buttons">
 							<label class="btn btn-primary active">
-								<input type="radio" name="userGender" autocomplete="off" value="남자" checked>남자
+								<input type="radio" name="userGender" autocomplete="off" value="Male" checked>남자
 							</label>
 							<label class="btn btn-primary">
-								<input type="radio" name="userGender" autocomplete="off" value="여자" checked>여자
+								<input type="radio" name="userGender" autocomplete="off" value="Female" checked>여자
 							</label>
 						</div>
 					</div>
